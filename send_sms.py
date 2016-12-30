@@ -8,7 +8,7 @@ from twilio.rest.exceptions import TwilioRestException
 client = TwilioRestClient()
 
 try:
-	client.messages.create(to="", from_="+15104564545",
+	client.messages.create(to="<your cell num>", from_="+15104564545",
 			body="Hey Shrikant this is python message")
 except TwilioRestException as e:
 	print(e)
