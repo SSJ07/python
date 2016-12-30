@@ -13,12 +13,12 @@ os.chdir("/home/shri/programming/Python") #changes current working dir
 
 # os module has path submodule
 
-os.path.isdir("/home/shri/programming/Python")
-os.path.isfile("/home/shri/programming/Python/send_sms.py")
-os.path.join("/home/shri", "programming") # returns /home/shri/programming
-os.path.split("/home/shri/programming") # returns (/home/shri, programming)
-os.path.islink("<a href=#> click here </a>")
-os.getcwd()
+print os.path.isdir("/home/shri/programming/Python")
+print os.path.isfile("/home/shri/programming/Python/send_sms.py")
+print os.path.join("/home/shri", "programming") # returns /home/shri/programming
+print os.path.split("/home/shri/programming") # returns (/home/shri, programming)
+print "isLink "+ str(os.path.islink("<a href=#> click here </a>"))
+print "current working dir" + os.getcwd()
 
 #get files from particular directory
 
