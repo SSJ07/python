@@ -16,3 +16,7 @@ def outer_function():
     inner_function()
 
 outer_function()
+
+def add(x, y):
+    return x + y
+print add(4,5)
