@@ -15,4 +15,8 @@ for i in range(10):
 	print i, " ",
 else:
 	print "else part in for loop"
+	
+	
+ls = [x for x in range(10)]
+print ls
 
