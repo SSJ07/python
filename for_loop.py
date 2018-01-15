@@ -1,5 +1,5 @@
 ## for loop in python
-
+## implemented under python 2.x
 for i in range(10):
 	print i, " ", 
 
