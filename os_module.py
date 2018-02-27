@@ -5,6 +5,7 @@
 import os
 
 # use os.system() to execute linux commands
+# This program works fine in python 2.x version but if you are using python 3.x then replace print with print("")
 
 os.system("clear") #clears screen
 os.system("pwd") # return present working dir

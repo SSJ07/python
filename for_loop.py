@@ -1,5 +1,6 @@
 ## for loop in python
 ## implemented under python 2.x
+## in python 3.x use print function as print("string") 
 for i in range(10):
 	print i, " ", 
 
