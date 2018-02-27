@@ -1,5 +1,6 @@
 '''
 	This program show basic string operations.
+        Executed under python2.x some changes required under python3.x line use print() instead of print, input() instead of raw_input()
 '''
 
 if __name__ == '__main__':
