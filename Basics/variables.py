@@ -12,6 +12,7 @@ Created on Feb 6, 2018
                     a) integer
                     b) floating
             2. String
+            3. Boolean
 '''
 
 a = 10
@@ -49,3 +50,8 @@ print("string to float val={}".format(val))
 '''
 val = str(10)
 print("integer to string val={}".format(val))
+
+boolean = True
+
+if boolean:
+    print("THis is true")
