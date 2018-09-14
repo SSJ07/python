@@ -2,9 +2,9 @@
     Aggregate function like sum(), max(), min()
 '''
 '''
-Sum() function returns sum of given integer list.
+sum() function returns sum of given integer list.
 max(): returns max value of given integer list.
-min(): refurns min value of given integer list.
+min(): returns min value of given integer list.
 '''
 
 
