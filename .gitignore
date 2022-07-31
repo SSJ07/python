@@ -3,3 +3,5 @@
 RemoteSystemsTempFiles/
 .project
 .pydevproject
+.venv
+venv/
